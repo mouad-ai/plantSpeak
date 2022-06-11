@@ -1,0 +1,76 @@
+body{
+  margin: 0;
+}
+.menu {
+      float: left;
+    background: #fff;
+    min-width: 275px;
+    width: 275px;
+    border-right: 1px solid #eee;
+    background-color: #0c8195;
+}
+.menu .avatar {
+  background: rgba(0, 0, 0, 0.1);
+  padding: 2em 0.5em;
+  text-align: center;
+}
+.menu .avatar img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 4px solid #fff;
+  box-shadow: 0 0 0 4px rgba(255, 255, 255, 0.2);
+}
+.menu .avatar h2 {
+  color: white;
+  font-weight: normal;
+  margin-bottom: 0;
+}
+.menu ul {
+  list-style: none;
+  padding: 0.5em 0;
+  margin: 0;
+}
+.menu ul li {
+  padding: 0.8em 1em 0.8em 3em;
+  font-size: 0.95em;
+  font-weight: regular;
+  background-repeat: no-repeat;
+  background-position: left 15px center;
+  background-size: auto 20px;
+  transition: all 0.15s linear;
+  cursor: pointer;
+}
+
+.menu ul li:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+.menu ul li:focus {
+  outline: none;
+}
+.sideBarButton{
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px 0px;
+  margin: 20px 0;
+  font-size: 15px;
+  color: #eee;
+  
+  
+}
+.innerList{
+  width: 50%;
+}
+.innerButton{
+  font-weight: 900;
+  color: tan !important;
+  padding-bottom: 10px !important;
+}
+.innerButton a {
+  color: rgb(222, 222, 135) !important;
+}
+.specialLi{
+  padding-bottom: 0 !important;
+}
+

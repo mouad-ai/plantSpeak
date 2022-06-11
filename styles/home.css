@@ -1,0 +1,12 @@
+body{
+background: linear-gradient(90deg, rgba(2,87,98,1) 0%, rgba(12,129,144,1) 56%, rgba(19,193,215,1) 100%);
+}
+.imageContainer{
+    display: flex;
+
+}
+img{
+    background-color: aliceblue;
+    width: 600px;
+    height: 200px;
+}

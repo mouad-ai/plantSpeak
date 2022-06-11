@@ -44,12 +44,12 @@
       if (get_prod_cart($lien, $prod,$id_client)) {
          $sql = "DELETE FROM panier WHERE Ref_prod=$prod and Num_clt=$id_client";
          mysqli_query($lien, $sql) or die(mysqli_error($lien));
-         echo 'product deleted from cart successfully !';
+         echo 'Le produit a été supprimé du panier avec succès !';
          http_response_code(200);
          exit;
          // deleted successfully
       }
-      echo 'product isnt in cart';
+      echo 'le produit n est pas dans le panier';
       http_response_code(400);
       exit;
    }

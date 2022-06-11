@@ -1,3 +1,3 @@
 <footer class="footer">
-   <span>TechRabat © 2022</span>
+    <span>Plant Speak © 2022</span>
 </footer>

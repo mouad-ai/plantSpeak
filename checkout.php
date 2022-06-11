@@ -52,7 +52,7 @@
             $deleteSql = "DELETE FROM panier where Num_clt=$id";
             $result4 = mysqli_query($lien, $deleteSql) or die(mysqli_error($lien));
             echo '<script type="text/javascript">';
-            echo 'setTimeout(function () { swal("Your Order Has Been Recorded Successfully !","Thank You For Using Our Website!","success");';
+            echo 'setTimeout(function () { swal("Votre commande a bien été enregistrée !","Merci d utiliser notre site Web !","success");';
             echo '}, 500);</script>';
             echo "<script type='text/javascript'> setTimeout(function() {
          window.location.href = '/shop/shop.php'
@@ -62,7 +62,7 @@
       ?>
      <div class="wrapper">
          <div class="form-container">
-             <h2 class="form-title">Payment Details</h2>
+             <h2 class="form-title">Détails de facturation</h2>
              <div class="radio-container">
                  <div class="radio-grp">
                      <input type="radio" name="paiement" id="enligne" checked>
@@ -75,16 +75,16 @@
              </div>
              <form action="" class="checkout-form" method="GET">
                  <div class="input-line">
-                     <label for="name">Name on card</label>
+                     <label for="name">Nom</label>
                      <input type="text" name="name" id="name" placeholder="Your name and surname">
                  </div>
                  <div class="input-line">
-                     <label for="name">Card number</label>
+                     <label for="name">Numéro de carte</label>
                      <input type="text" name="name" id="name" placeholder="1111-2222-3333-4444">
                  </div>
                  <div class="input-container">
                      <div class="input-line">
-                         <label for="name">Expiring Date</label>
+                         <label for="name">Date d'expiration</label>
                          <input type="text" name="name" id="name" placeholder="09-21">
                      </div>
                      <div class="input-line">
@@ -102,7 +102,7 @@
                  <form action="checkout.php" method="get">
 
                      <!-- <input class="purchaseButton" type="submit" name="subject" value="Complete purchase"> -->
-                     <input type="submit" name="subject" value="Complete purchase" class="btn-outline"
+                     <input type="submit" name="subject" value="Commander" class="btn-outline"
                          style="font-size:18px;padding:10px 15px;" id="purchase">
                  </form>
              </div>
